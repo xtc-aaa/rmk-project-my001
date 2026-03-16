@@ -9,8 +9,8 @@ chip = "nrf52840"
 
 [matrix]
 # Row and col pins are mandatory
-row_pins = ["PIN_6", "PIN_7"]
-col_pins = ["PIN_19", "PIN_20", "PIN_21"]
+row_pins = ["P1_11", "P0_10"]
+col_pins = ["P1_00", "P0_24", "P0_22"]
 
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
